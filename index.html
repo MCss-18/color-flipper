@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color flipper</title>    
+  </head>
+  <body>
+    <header>Find and copy your favourite color</header>
+    <section>
+      <div class="container-color">
+
+      </div>
+      <div class="container-form-color">
+        <div class="type-code">
+          <ul>
+            <li>Hex</li>
+            <li>RGB</li>
+          </ul>
+        </div>
+        <div class="code-color">
+          <div class="hex">
+            #<span id="numHex" class="btn-copy"></span>
+          </div>
+          <div class="rgb">
+            rgb<span id="numRgb" class="btn-copy"></span>
+          </div>
+        </div>
+        <div class="container-btn">
+          <button id="btnChangeColor" class="btn-change-color">Change</button>
+        </div>
+      </div>
+      <div class="msg-copied">
+        Copied
+      </div>
+    </section>
+    <footer>
+      Created by MC
+    </footer>
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
